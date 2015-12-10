@@ -225,7 +225,7 @@ uint8 treatMessage(uint8 *packet)
         }
         case GET_CURRENT_TEMPERATURE: // Modify to return the temperature of the desired thermistor.
         {            
-            sendDataToCAN(GET_CURRENT_TEMPERATURE, module,tacModule[module].currentTemperature,tacModule[module].currentTemperature>>8,0,0,0);
+            sendDataToCAN(GET_CURRENT_TEMPERATURE, module, 0, tacModule[module].currentTemperature,tacModule[module].currentTemperature>>8,0,0);
             break;
         }
         case SET_AGITATOR_ENABLE: // To be verified.

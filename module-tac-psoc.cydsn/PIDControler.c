@@ -62,6 +62,7 @@ void updatePeltierOutput(uint8 module, double dt)
         changePeltierModuleState(peltierDisabled, module);
     }
     
+    tacModule[module].currentTemperature = current;
 	sendTemperatureToCAN(module, current, (int8)command);
     float i = (float)integral;
 	sendFloatToCAN(GET_PID_INTEGRAL, module, &i);

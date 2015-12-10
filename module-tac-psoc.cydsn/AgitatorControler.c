@@ -37,7 +37,7 @@ void changeAgitatorSpeed(uint8 percentage, uint8 module)
             pwmAgitator_2_WriteCompare(toWrite);
             break;
     }
-    tacModule[module].agitatorSpeed = toWrite;
+    tacModule[module].agitatorSpeed = percentage;
 }
 
 
