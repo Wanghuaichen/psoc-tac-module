@@ -284,7 +284,7 @@ uint8 treatMessage(uint8 *packet)
         }
         case GET_TARGET_TEMPERATURE:
         {
-            sendDataToCAN(GET_TARGET_TEMPERATURE, module ,tacModule[module].targetTemperature,tacModule[module].targetTemperature>>8, 0,0,0);
+            sendDataToCAN(GET_TARGET_TEMPERATURE, module , 0,tacModule[module].targetTemperature,tacModule[module].targetTemperature>>8,0,0);
             break;
         }
         case SET_PELTIER_ENABLE:
