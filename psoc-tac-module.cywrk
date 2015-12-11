@@ -3,11 +3,11 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspc" version="5" xml_contents_version="3" name="psoc-tac-module" persistent="" platform="NOT_USED">
-<current_project name=".\module-tac-psoc.cydsn\module-tac-psoc.cyprj" />
+<current_project name=".\psoc-tac-module.cydsn\psoc-tac-module.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
-<v>.\module-tac-psoc.cydsn\module-tac-psoc.cyprj</v>
+<v>.\psoc-tac-module.cydsn\psoc-tac-module.cyprj</v>
 </projects>
 <workspace_id v="c65c83f6-8ee3-40af-9148-4109ab2fcd29" />
 <WriteAppVersionLastSavedWith v="3.3.0.410" />
