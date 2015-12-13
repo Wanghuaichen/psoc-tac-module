@@ -19,6 +19,8 @@
 /**
  * This function simplifies temperature reading from thermistor
  * by controlling ADC and AMux usage accordingly
+ *
+ * @param module The submodule index we want the temperature from. 
  */
 int16 getThermistorTemp(uint8 module);
 

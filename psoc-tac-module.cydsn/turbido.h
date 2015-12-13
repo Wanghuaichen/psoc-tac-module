@@ -18,12 +18,15 @@
  */
 #include <project.h>
 
-int getBufferIndex(int currentIndex, int increment, int bufferSize);
-
-void meanTurbido(int pos, float* signalReception, float* moyenne);
-
+/**
+ * Update the buffer when a new sample is available.
+ * If enougth sample have been received perform a mean to generate a result
+ */
 float updateTurbidoOutput(int16 Turbido_ADC_result);
 
+/**
+ * Initialise the top design block needed by the tac.
+ */
 void initTurbido();
 
 /* [] END OF FILE */
